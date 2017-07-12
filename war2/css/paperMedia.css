@@ -1,0 +1,52 @@
+/* $Id: $ */
+@charset "UTF-8";
+/* CSS Document */
+
+/*==================================RESPONSIVE LAYOUTS===============================================*/
+@-webkit-viewport {
+width:device-width
+}
+@-moz-viewport {
+width:device-width
+}
+@-ms-viewport {
+width:device-width
+}
+@-o-viewport {
+width:device-width
+}
+
+@media only screen and (min-width:1024px) {
+	
+	.backgroundSecBg{ padding:40px;}
+	.centerContainer{
+		background-size:contain;
+		padding:0 30px;
+	}
+	
+	.templateWrapper {
+    padding: 0 30px;
+}
+	
+}
+
+@media only screen and (min-width: 480px) and (max-width:768px) {
+	
+	.fmFooter{ padding:25px 0px 25px 0;}
+	
+
+}
+
+
+@media only screen and (max-width:480px)  {
+	
+	.fmFooter{ padding:25px 0px 25px 0;}
+
+}
+
+
+/* Ipad Start */
+
+
+
+
