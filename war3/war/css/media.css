@@ -1,0 +1,238 @@
+/* $Id: $ */
+@charset "UTF-8";
+/* CSS Document */
+
+/*==================================RESPONSIVE LAYOUTS===============================================*/
+@-webkit-viewport {
+width:device-width
+}
+@-moz-viewport {
+width:device-width
+}
+@-ms-viewport {
+width:device-width
+}
+@-o-viewport {
+width:device-width
+}
+
+/* Ipad (Live Themes) Start */
+
+@media only screen and (min-width:1024px) {
+	
+body{
+	min-width:800px;
+	}
+	
+.topContainer{
+	background-size:contain;
+	background-position: center bottom;
+	}
+	
+.btmContainer{
+	background-size:contain;
+	background-position: center top;
+	}
+	
+.tempHeadBdr{
+	background-size:contain;
+	}
+	
+}
+
+
+
+@media only screen and (max-width:768px) {
+
+.templateWidth{
+	width:100%;
+	margin-right:0; margin-left:0;
+	}
+	
+.topContainer{
+	background-size:contain;
+	background-position: center bottom;
+	}
+	
+.btmContainer{
+	background-size:contain;
+	background-position: center top;
+	}
+	
+.tempHeadBdr{
+	background-size:contain;
+	}
+	
+.pmnt .cardOuterWrapper{ width:99%;}
+
+.verification .captchaOuterWrapper{ width:auto;}
+
+
+.address .tempContDiv span, .geolocation .tempContDiv span{ margin-right:0;}
+
+
+.address .tempContDiv span.addtwo, .geolocation .tempContDiv span.addtwo{ 
+	width:100%;
+	}
+		
+.leftAlign .address .tempContDiv span.addtwo, .geolocation .tempContDiv span.addtwo{ 
+	width:100%;
+	}	
+.rightAlign .address .tempContDiv span.addtwo, .geolocation .tempContDiv span.addtwo{ 
+	width:100%;
+	}	
+
+}
+
+@media only screen  and (min-width:700px) and (max-width:735px) {
+.topAlign .twoColumns .imgUploadType .imgChoiceWrapper{ width:41%;}
+.topAlign .threeColumns .imgUploadType .imgChoiceWrapper{ width:24%;}
+.topAlign .sideBySide .imgUploadType .imgChoiceWrapper{ width:16%;}	
+.leftAlign .twoColumns .imgUploadType .imgChoiceWrapper, .rightAlign .twoColumns .imgUploadType .imgChoiceWrapper{width:38%; }
+.leftAlign .threeColumns .imgUploadType .imgChoiceWrapper, .rightAlign .threeColumns .imgUploadType .imgChoiceWrapper{width:21%;}
+.leftAlign .sideBySide .imgUploadType .imgChoiceWrapper, .rightAlign .sideBySide .imgUploadType .imgChoiceWrapper{width:13%;}
+}
+
+@media only screen  and (min-width:650px) and (max-width:700px) {
+.topAlign .twoColumns .imgUploadType .imgChoiceWrapper{ width:41%;}
+.topAlign .threeColumns .imgUploadType .imgChoiceWrapper{ width:24%;}
+.topAlign .sideBySide .imgUploadType .imgChoiceWrapper{ width:16%;}	
+.leftAlign .twoColumns .imgUploadType .imgChoiceWrapper, .rightAlign .twoColumns .imgUploadType .imgChoiceWrapper{width:37%; }
+.leftAlign .threeColumns .imgUploadType .imgChoiceWrapper, .rightAlign .threeColumns .imgUploadType .imgChoiceWrapper{width:20%;}
+.leftAlign .sideBySide .imgUploadType .imgChoiceWrapper, .rightAlign .sideBySide .imgUploadType .imgChoiceWrapper{width:12%;}
+}
+
+@media only screen  and (min-width:550px) and (max-width:650px) {
+.topAlign .twoColumns .imgUploadType .imgChoiceWrapper{ width:40%;}
+.topAlign .threeColumns .imgUploadType .imgChoiceWrapper{ width:23%;}
+.topAlign .sideBySide .imgUploadType .imgChoiceWrapper{ width:14%;}
+	
+.leftAlign .twoColumns .imgUploadType .imgChoiceWrapper, .rightAlign .twoColumns .imgUploadType .imgChoiceWrapper{width:40%; padding:18px 10px;}
+.leftAlign .twoColumns .imgUploadType .imgChoiceWrapper .tickIcon, .rightAlign .twoColumns .imgUploadType .imgChoiceWrapper .tickIcon{ left:-6px;}
+.leftAlign .twoColumns .imgUploadType .imgChoiceWrapper:hover .zoomIcon, .rightAlign .twoColumns .imgUploadType .imgChoiceWrapper:hover .zoomIcon{ right:-6px;}
+
+.leftAlign .threeColumns .imgUploadType .imgChoiceWrapper, .rightAlign .threeColumns .imgUploadType .imgChoiceWrapper{width:25%; padding:18px 5px;}
+.leftAlign .threeColumns .imgUploadType .imgChoiceWrapper .tickIcon, .rightAlign .threeColumns .imgUploadType .imgChoiceWrapper .tickIcon{ left:-3px;}
+.leftAlign .threeColumns .imgUploadType .imgChoiceWrapper:hover .zoomIcon, .rightAlign .threeColumns .imgUploadType .imgChoiceWrapper:hover .zoomIcon{ right:-2px;}
+
+.leftAlign .sideBySide .imgUploadType .imgChoiceWrapper, .rightAlign .sideBySide .imgUploadType .imgChoiceWrapper{width:25%; padding:18px 5px;}
+.leftAlign .sideBySide .imgUploadType .imgChoiceWrapper .tickIcon, .rightAlign .sideBySide .imgUploadType .imgChoiceWrapper .tickIcon{ left:0;}
+.leftAlign .sideBySide .imgUploadType .imgChoiceWrapper:hover .zoomIcon, .rightAlign .sideBySide .imgUploadType .imgChoiceWrapper:hover .zoomIcon{ right:-2px;}
+
+}
+
+@media only screen  and (min-width:450px) and (max-width:550px) {
+
+.imgUploadType .imgChoiceWrapper .tickIcon{ left:2px;}	
+
+.topAlign .oneColumns .imgUploadType .imgChoiceWrapper .tickIcon{ left:-10px;}
+	
+.topAlign .twoColumns .imgUploadType .imgChoiceWrapper{ width:38%;}
+.topAlign .twoColumns .imgUploadType .imgChoiceWrapper .tickIcon{ left:-10px;}
+
+.topAlign .threeColumns .imgUploadType .imgChoiceWrapper{ width:27%;padding:18px 5px;}
+.topAlign .threeColumns .imgUploadType .imgChoiceWrapper:hover .zoomIcon{ right:-2px;}
+
+.topAlign .sideBySide .imgUploadType .imgChoiceWrapper{ width:20%;padding:18px 2px;}
+.topAlign .sideBySide .imgUploadType .imgChoiceWrapper:hover .zoomIcon{ right:0px;}
+
+.leftAlign .oneColumns .imgUploadType .imgChoiceWrapper .tickIcon, .rightAlign .twoColumns .imgUploadType .imgChoiceWrapper .tickIcon{ left:-12px;}
+	
+.leftAlign .twoColumns .imgUploadType .imgChoiceWrapper, .rightAlign .twoColumns .imgUploadType .imgChoiceWrapper{width:46%; padding:18px 0px;}
+.leftAlign .twoColumns .imgUploadType .imgChoiceWrapper .tickIcon, .rightAlign .twoColumns .imgUploadType .imgChoiceWrapper .tickIcon{ left:3px;}
+.leftAlign .twoColumns .imgUploadType .imgChoiceWrapper:hover .zoomIcon, .rightAlign .twoColumns .imgUploadType .imgChoiceWrapper:hover .zoomIcon{ right:2px;}
+.leftAlign .twoColumns .imgUploadType .largeType, .rightAlign .twoColumns .imgUploadType .largeType{ width:64px; height:64px;}
+.leftAlign .twoColumns .imgUploadType .largeType img, .rightAlign .twoColumns .imgUploadType .largeType img{ max-width:64px; max-height:64px;}
+.leftAlign .twoColumns .large .addedImgWrapper .pCentre, .rightAlign .twoColumns .large .addedImgWrapper .pCentre{ width:64px; height:64px;}
+
+
+.leftAlign .threeColumns .imgUploadType .imgChoiceWrapper, .rightAlign .threeColumns .imgUploadType .imgChoiceWrapper{width:29%; padding:18px 0px;}
+.leftAlign .threeColumns .imgUploadType .imgChoiceWrapper:hover .zoomIcon, .rightAlign .threeColumns .imgUploadType .imgChoiceWrapper:hover .zoomIcon{ right:2px;}
+.leftAlign .threeColumns .imgUploadType .largeType, .rightAlign .threeColumns .imgUploadType .largeType{ width:64px; height:64px;}
+.leftAlign .threeColumns .imgUploadType .largeType img, .rightAlign .threeColumns .imgUploadType .largeType img{ max-width:64px; max-height:64px;}
+.leftAlign .threeColumns .large .addedImgWrapper .pCentre, .rightAlign .threeColumns .large .addedImgWrapper .pCentre{ width:64px; height:64px;}
+
+.leftAlign .sideBySide .imgUploadType .imgChoiceWrapper, .rightAlign .sideBySide .imgUploadType .imgChoiceWrapper{width:29%; padding:18px 0px;}
+.leftAlign .sideBySide .imgUploadType .imgChoiceWrapper:hover .zoomIcon, .rightAlign .sideBySide .imgUploadType .imgChoiceWrapper:hover .zoomIcon{ right:2px;}
+.leftAlign .sideBySide .imgUploadType .largeType, .rightAlign .sideBySide .imgUploadType .largeType{ width:64px; height:64px;}
+.leftAlign .sideBySide .imgUploadType .largeType img, .rightAlign .sideBySide .imgUploadType .largeType img{ max-width:64px; max-height:64px;}
+.leftAlign .sideBySide .large .addedImgWrapper .pCentre, .rightAlign .sideBySide .large .addedImgWrapper .pCentre{ width:64px; height:64px;}
+}
+
+
+@media only screen  and (min-width:350px) and (max-width:450px) {
+	
+.imgUploadType .imgChoiceWrapper .tickIcon{ left:3px;}	
+	
+.topAlign .twoColumns .imgUploadType .imgChoiceWrapper{ width:45%; padding:18px 2px;}
+.topAlign .twoColumns .imgUploadType .imgChoiceWrapper:hover .zoomIcon{ right:1px;}
+
+
+.topAlign .threeColumns .imgUploadType .imgChoiceWrapper{ width:29%;padding:18px 0px;}
+.topAlign .threeColumns .imgUploadType .imgChoiceWrapper:hover .zoomIcon{ right:2px;}
+.topAlign .threeColumns .imgUploadType .largeType{ width:48px; height:48px;}
+.topAlign .threeColumns .imgUploadType .largeType img{ max-width:48px; max-height:48px;}
+.topAlign .threeColumns .large .addedImgWrapper .pCentre{ width:48px; height:48px;}
+
+.topAlign .sideBySide .imgUploadType .imgChoiceWrapper{ width:29%;padding:18px 0px;}
+.topAlign .sideBySide .imgUploadType .imgChoiceWrapper:hover .zoomIcon{ right:2px;}
+.topAlign .sideBySide .imgUploadType .largeType{ width:48px; height:48px;}
+.topAlign .sideBySide .imgUploadType .largeType img{ max-width:48px; max-height:48px;}
+.topAlign .sideBySide .large .addedImgWrapper .pCentre{ width:48px; height:48px;}
+
+.leftAlign .oneColumns .imgUploadType .imgChoiceWrapper, .rightAlign .oneColumns .imgUploadType .imgChoiceWrapper{ width:95%; padding:18px 2px;}
+.leftAlign .oneColumns .imgUploadType .imgChoiceWrapper:hover .zoomIcon, .rightAlign .oneColumns .imgUploadType .imgChoiceWrapper:hover .zoomIcon{ right:2px;}
+	
+.leftAlign .twoColumns .imgUploadType .imgChoiceWrapper, .rightAlign .twoColumns .imgUploadType .imgChoiceWrapper{width:46%; padding:18px 0px;}
+.leftAlign .twoColumns .imgUploadType .imgChoiceWrapper:hover .zoomIcon, .rightAlign .twoColumns .imgUploadType .imgChoiceWrapper:hover .zoomIcon{ right:2px;}
+.leftAlign .twoColumns .imgUploadType .largeType, .rightAlign .twoColumns .imgUploadType .largeType{ width:64px; height:64px;}
+.leftAlign .twoColumns .imgUploadType .largeType img, .rightAlign .twoColumns .imgUploadType .largeType img{ max-width:64px; max-height:64px;}
+.leftAlign .twoColumns .large .addedImgWrapper .pCentre, .rightAlign .twoColumns .large .addedImgWrapper .pCentre{ width:64px; height:64px;}
+
+.leftAlign .threeColumns .imgUploadType .imgChoiceWrapper, .rightAlign .threeColumns .imgUploadType .imgChoiceWrapper{width:46%; padding:18px 0px;}
+.leftAlign .threeColumns .imgUploadType .imgChoiceWrapper:hover .zoomIcon, .rightAlign .threeColumns .imgUploadType .imgChoiceWrapper:hover .zoomIcon{ right:2px;}
+.leftAlign .threeColumns .imgUploadType .largeType, .rightAlign .threeColumns .imgUploadType .largeType{ width:64px; height:64px;}
+.leftAlign .threeColumns .imgUploadType .largeType img, .rightAlign .threeColumns .imgUploadType .largeType img{ max-width:64px; max-height:64px;}
+.leftAlign .threeColumns .large .addedImgWrapper .pCentre, .rightAlign .threeColumns .large .addedImgWrapper .pCentre{ width:64px; height:64px;}
+
+.leftAlign .sideBySide .imgUploadType .imgChoiceWrapper, .rightAlign .sideBySide .imgUploadType .imgChoiceWrapper{width:46%; padding:18px 0px;}
+.leftAlign .sideBySide .imgUploadType .imgChoiceWrapper:hover .zoomIcon, .rightAlign .sideBySide .imgUploadType .imgChoiceWrapper:hover .zoomIcon{ right:2px;}
+.leftAlign .sideBySide .imgUploadType .largeType, .rightAlign .sideBySide .imgUploadType .largeType{ width:64px; height:64px;}
+.leftAlign .sideBySide .imgUploadType .largeType img, .rightAlign .sideBySide .imgUploadType .largeType img{ max-width:64px; max-height:64px;}
+.leftAlign .sideBySide .large .addedImgWrapper .pCentre, .rightAlign .sideBySide .large .addedImgWrapper .pCentre{ width:64px; height:64px;}
+
+}
+	
+	
+@media only screen  and (min-width:250px) and (max-width:350px) {
+	
+.imgUploadType .imgChoiceWrapper .tickIcon{ left:2px;}
+	
+.topAlign .oneColumns .imgUploadType .imgChoiceWrapper{ width:99%; padding:18px 2px;}
+.topAlign .oneColumns .imgUploadType .imgChoiceWrapper:hover .zoomIcon{ right:5px;}
+
+.topAlign .twoColumns .imgUploadType .imgChoiceWrapper{ width:99%; padding:18px 2px;}
+.topAlign .twoColumns .imgUploadType .imgChoiceWrapper:hover .zoomIcon{ right:1px;}
+
+.topAlign .threeColumns .imgUploadType .imgChoiceWrapper{ width:99%; padding:18px 2px;}
+.topAlign .threeColumns .imgUploadType .imgChoiceWrapper:hover .zoomIcon{ right:1px;}
+
+.topAlign .sideBySide .imgUploadType .imgChoiceWrapper{ width:95%; padding:18px 2px;}
+.topAlign .sideBySide .imgUploadType .imgChoiceWrapper:hover .zoomIcon{ right:1px;}
+
+.leftAlign .oneColumns .imgUploadType .imgChoiceWrapper, .rightAlign .oneColumns .imgUploadType .imgChoiceWrapper{ width:90%; padding:18px 0px;}
+.leftAlign .oneColumns .imgUploadType .imgChoiceWrapper:hover .zoomIcon, .rightAlign .oneColumns .imgUploadType .imgChoiceWrapper:hover .zoomIcon{ right:2px;}
+
+.leftAlign .twoColumns .imgUploadType .imgChoiceWrapper, .rightAlign .twoColumns .imgUploadType .imgChoiceWrapper{ width:90%; padding:18px 0px;}
+.leftAlign .twoColumns .imgUploadType .imgChoiceWrapper:hover .zoomIcon, .rightAlign .twoColumns .imgUploadType .imgChoiceWrapper:hover .zoomIcon{ right:2px;}
+	
+.leftAlign .threeColumns .imgUploadType .imgChoiceWrapper, .rightAlign .threeColumns .imgUploadType .imgChoiceWrapper{ width:90%; padding:18px 0px;}
+.leftAlign .threeColumns .imgUploadType .imgChoiceWrapper:hover .zoomIcon, .rightAlign .threeColumns .imgUploadType .imgChoiceWrapper:hover .zoomIcon{ right:2px;}
+
+.leftAlign .sideBySide .imgUploadType .imgChoiceWrapper, .rightAlign .sideBySide .imgUploadType .imgChoiceWrapper{ width:90%; padding:18px 0px;}
+.leftAlign .sideBySide .imgUploadType .imgChoiceWrapper:hover .zoomIcon, .rightAlign .sideBySide .imgUploadType .imgChoiceWrapper:hover .zoomIcon{ right:2px;}
+
+}	
+	
+	
+

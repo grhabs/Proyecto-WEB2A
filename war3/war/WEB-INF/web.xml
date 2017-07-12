@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://java.sun.com/xml/ns/javaee"
+xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+	<servlet>
+		<servlet-name>Registrar</servlet-name>
+		<servlet-class>controladores.Registrar</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Registrar</servlet-name>
+		<url-pattern>/registrar</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Registrar2</servlet-name>
+		<servlet-class>controladores.Registrar2</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Registrar2</servlet-name>
+		<url-pattern>/registrar2</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>MostrarCuentas</servlet-name>
+		<servlet-class>controladores.MostrarCuentas</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MostrarCuentas</servlet-name>
+		<url-pattern>/mostrarCuentas</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>comprobar</servlet-name>
+		<servlet-class>controladores.ComprobarSesion</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>comprobar</servlet-name>
+		<url-pattern>/comprobar</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>IniciarSesion</servlet-name>
+		<servlet-class>controladores.IniciarSesion</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>IniciarSesion</servlet-name>
+		<url-pattern>/iniciar</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>Cerrar</servlet-name>
+		<servlet-class>controladores.Cerrar</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Cerrar</servlet-name>
+		<url-pattern>/cerrar</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>EliminarUsuario</servlet-name>
+		<servlet-class>controladores.EliminarUsuario</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EliminarUsuario</servlet-name>
+		<url-pattern>/eliminarUsuario</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>InhabilitarUsuario</servlet-name>
+		<servlet-class>controladores.InhabilitarUsuario</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>InhabilitarUsuario</servlet-name>
+		<url-pattern>/inhabilitarUsuario</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>HabilitarUsuario</servlet-name>
+		<servlet-class>controladores.HabilitarUsuario</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>HabilitarUsuario</servlet-name>
+		<url-pattern>/habilitarUsuario</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>editarNota</servlet-name>
+		<servlet-class>controladores.editarNota</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>editarNota</servlet-name>
+		<url-pattern>/editarNotas</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>editandoNota</servlet-name>
+		<servlet-class>controladores.editandoNota</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>editandoNota</servlet-name>
+		<url-pattern>/editandoNotas</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>VerNotas</servlet-name>
+		<servlet-class>controladores.VerNotas</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>VerNotas</servlet-name>
+		<url-pattern>/verNotas</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+    <servlet-name>Upload</servlet-name>
+    <servlet-class>controladores.Upload</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>Serve</servlet-name>
+    <servlet-class>controladores.Serve</servlet-class>
+  </servlet>
+ 
+  <servlet-mapping>
+    <servlet-name>Upload</servlet-name>
+    <url-pattern>/upload</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>Serve</servlet-name>
+    <url-pattern>/serve</url-pattern>
+  </servlet-mapping>
+	<servlet>
+		<servlet-name>AccionesAdministrador</servlet-name>
+		<servlet-class>controladores.AccionesAdministrador</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AccionesAdministrador</servlet-name>
+		<url-pattern>/accionAdmin</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>AccionesProfesor</servlet-name>
+		<servlet-class>controladores.AccionesProfesor</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AccionesProfesor</servlet-name>
+		<url-pattern>/accionProfe</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>AccionesAlumno</servlet-name>
+		<servlet-class>controladores.AccionesAlumno</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AccionesAlumno</servlet-name>
+		<url-pattern>/accionAlumn</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>
